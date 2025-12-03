@@ -1,10 +1,10 @@
 # 제조 현장 데이터 분석 및 불량 탐지 실습
 
 ## 실습 개요
-박막 트랜지스터(TFT) 제조 공정 중 **식각(Etching)** 단계에서 수집된 센서 데이터를 분석하고 불량품을 탐지하는 머신러닝 모델을 구축
+박막 트랜지스터(TFT) 제조 공정 중 **식각** 단계에서 수집된 센서 데이터를 분석하고 불량품을 탐지하는 머신러닝 모델을 구축
 
 ### 식각(Etching)이란?
-TFT의 회로패턴 공정 중 **필요한 부분을 남기고 나머지 불필요한 부분을 부식액을 이용해 제거하는 과정**
+TFT의 회로패턴 공정 중 필요한 부분을 남기고 나머지 **불필요한 부분을 부식액을 이용해 제거하는 과정**
 
 <img src="etching_process.png" alt="식각 공정" width="500"/>
 
@@ -67,7 +67,8 @@ MLP(Multi-Layer Perceptron) 신경망을 사용한 불량품 분류 모델 학�
 
 ### 방법 2: Google Colab에서 바로 실행
 
-Colab 접속: [https://colab.research.google.com/](https://colab.research.google.com/)
+1. Colab 접속: [https://colab.research.google.com/](https://colab.research.google.com/)
+2. 새 파일 만들고 아래 수행
 
 #### Step 1: 드라이브 마운트
 ```python
@@ -84,7 +85,7 @@ cd /content/drive/My Drive
 
 #### Step 3: Repository Clone
 ```python
-# Repository clone (기저으기)
+# Repository clone (기져오기)
 !git clone https://github.com/nkim71-dev/manufacturing_251204.git
 ```
 
