@@ -1,7 +1,7 @@
 # 제조 현장 데이터 분석 및 불량 탐지 실습
 
 ## 실습 개요
-TFT(박막 트랜지스터) 제조 공정 중 **식각(Etching)** 단계에서 수집된 센서 데이터를 분석하고 불량품을 탐지하는 머신러닝 모델을 구축
+박막 트랜지스터(TFT) 제조 공정 중 **식각(Etching)** 단계에서 수집된 센서 데이터를 분석하고 불량품을 탐지하는 머신러닝 모델을 구축
 
 ### 식각(Etching)이란?
 TFT의 회로패턴 공정 중 **필요한 부분을 남기고 나머지 불필요한 부분을 부식액을 이용해 제거하는 과정**
@@ -63,12 +63,45 @@ MLP(Multi-Layer Perceptron) 신경망을 사용한 불량품 분류 모델 학�
 1. Repository 접속: [https://github.com/nkim71-dev/manufacturing_251204.git](https://github.com/nkim71-dev/manufacturing_251204.git)
 2. 우측 상단 **`<> Code`** 버튼 클릭
 3. **`Download ZIP`** 선택하여 다운로드
-4. 압축 해제 후 Jupyter Notebook 실행
+4. 압축 해제 후 Google Drive에 업로드하여 `DefectDetection.ipynb` 실행
 
 ### 방법 2: Google Colab에서 바로 실행
 
-1. Colab 접속: [https://colab.research.google.com/](https://colab.research.google.com/)
+Colab 접속: [https://colab.research.google.com/](https://colab.research.google.com/)
 
+#### Step 1: 드라이브 마운트
+```python
+# 드라이브 마운트 하기
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+#### Step 2: 드라이브로 이동
+```python
+# 드라이브로 이동
+cd /content/drive/My Drive
+```
+
+#### Step 3: Repository Clone
+```python
+# Repository clone (기저으기)
+!git clone https://github.com/nkim71-dev/manufacturing_251204.git
+```
+
+#### Step 4: 폴더 이동 및 파일 확인
+```python
+# clone한 폴더로 이동
+cd manufacturing_251204
+
+# 파일 확인
+!ls -la
+```
+
+#### Step 5: 노트북 실행
+- 좌측 파일 탐색기에서 `defectDetection_재구성.ipynb` 더블클릭
+- 순서대로 셀 실행
+
+> ⚠️ **주의**: Colab에서 실행 시 데이터 파일 경로를 현재 위치에 맞게 수정해야 할 수 있습니다.
 ---
 
 ## 필요 환경
