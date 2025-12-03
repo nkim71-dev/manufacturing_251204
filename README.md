@@ -128,5 +128,5 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 ---
 
-> [발표자료] (https://docs.google.com/presentation/d/1SD4JUnGpqX2mVBVKdeVWhygBnZW-seVZ/edit?usp=sharing&ouid=101113300068164697807&rtpof=true&sd=true)
+> [발표자료](https://docs.google.com/presentation/d/1SD4JUnGpqX2mVBVKdeVWhygBnZW-seVZ/edit?usp=sharing&ouid=101113300068164697807&rtpof=true&sd=true)
 
