@@ -108,7 +108,7 @@ cd manufacturing_251204
 ```
 
 #### Step 5: 노트북 실행
-- 좌측 파일 탐색기에서 `defectDetection.ipynb` 더블클릭하여 열기
+- 좌측 파일 탐색기 혹은 Google Drive에서 `defect_detection.ipynb` 열기
 - 순서대로 셀 실행 (Shift+Enter / Ctrl+Enter)
 
 > ⚠️ **주의**: Colab에서 실행 시 데이터 파일 경로를 현재 위치에 맞게 수정해야 할 수 있습니다.
