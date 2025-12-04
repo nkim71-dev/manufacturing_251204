@@ -76,7 +76,7 @@ MLP(Multi-Layer Perceptron) 신경망을 사용한 불량품 분류 모델 학�
 ### 방법 2: Google Colab에서 바로 실행
 
 1. Colab 접속: [https://colab.research.google.com/](https://colab.research.google.com/)
-2. 새 파일 만들고 아래 수행
+2. 새 노트북 파일 만들고 아래 수행
 
 #### Step 1: 드라이브 마운트
 ```python
