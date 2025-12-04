@@ -88,7 +88,7 @@ drive.mount('/content/drive')
 #### Step 2: 드라이브로 이동
 ```python
 # 드라이브로 이동
-cd /content/drive/My Drive
+!cd '/content/drive/My_Drive'
 ```
 
 #### Step 3: Repository Clone
@@ -100,7 +100,7 @@ cd /content/drive/My Drive
 #### Step 4: 폴더 이동 및 파일 확인
 ```python
 # clone한 폴더로 이동
-cd manufacturing_251204
+!cd 'manufacturing_251204'
 
 # 파일 확인
 !ls -la
