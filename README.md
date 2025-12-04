@@ -69,10 +69,9 @@ MLP(Multi-Layer Perceptron) 신경망을 사용한 불량품 분류 모델 학�
 
 ### 방법 1: GitHub에서 다운로드
 
-1. Repository 접속: [https://github.com/nkim71-dev/manufacturing_251204.git](https://github.com/nkim71-dev/manufacturing_251204.git)
-2. 우측 상단 **`<> Code`** 버튼 클릭
-3. **`Download ZIP`** 선택하여 다운로드
-4. 압축 해제 후 Google Drive에 업로드하여 `DefectDetection.ipynb` 실행
+1. Repository 우측 상단 **`<> Code`** 버튼 클릭
+2. **`Download ZIP`** 선택하여 다운로드
+3. 압축 해제 후 Google Drive에 업로드하여 `DefectDetection.ipynb` 실행
 
 ### 방법 2: Google Colab에서 바로 실행
 
